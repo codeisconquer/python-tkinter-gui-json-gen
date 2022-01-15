@@ -1,4 +1,5 @@
 import json
+import os
 from tkinter import *
 from functools import partial
 
@@ -8,7 +9,7 @@ from file_handler import FileHandler
 class Form:
     form_title = 'Teaser creator'
     form_size = '400x150'
-    blueprint_file = "form_construction.json"
+    blueprint_file = "./form_construction.json"
     blueprint = []
 
     def __init__(self):
@@ -20,6 +21,11 @@ class Form:
         self.create()
 
     def load_blueprint(self):
+
+        if not os.path.exists(self.blueprint_file):
+            print("not found " + self.blueprint_file)
+            exit(0)
+
         with open(self.blueprint_file, encoding='utf-8') as data_file:
             self.blueprint = json.loads(data_file.read())
 

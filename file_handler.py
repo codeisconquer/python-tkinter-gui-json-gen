@@ -4,7 +4,7 @@ import pandas as pd
 
 
 class FileHandler:
-    json_file_name = "list_of_teasers.json"
+    json_file_name = "./list_of_teasers.json"
 
     def add_to_json_file(self, new_entry):
         lod = self.read_json_file()

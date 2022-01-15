@@ -1,3 +1,4 @@
+altgraph==0.17.2
 api-client==1.2.1
 appnope==0.1.0
 asn1crypto==0.24.0
@@ -27,6 +28,7 @@ eyed3==0.9.6
 filetype==1.0.7
 hyperlink==20.0.1
 idna==2.8
+importlib-metadata==4.10.0
 incremental==17.5.0
 inflection==0.3.1
 ipykernel==5.1.2
@@ -49,6 +51,7 @@ jupyterlab-server==1.0.6
 keyboard==0.13.5
 kiwisolver==1.1.0
 lxml==4.5.2
+macholib==1.15.2
 MarkupSafe==1.1.1
 matplotlib==3.1.1
 mistune==0.8.4
@@ -85,6 +88,8 @@ pydub==0.24.1
 PyGetWindow==0.0.9
 Pygments==2.4.2
 PyHamcrest==2.0.2
+pyinstaller==4.8
+pyinstaller-hooks-contrib==2021.5
 PyMsgBox==1.0.9
 pyobjc==7.1
 pyobjc-core==7.1
@@ -221,6 +226,7 @@ toml==0.10.2
 tornado==6.0.3
 traitlets==4.3.2
 Twisted==20.3.0
+typing-extensions==4.0.1
 urllib3==1.25.3
 w3lib==1.22.0
 wcwidth==0.1.7
@@ -228,4 +234,5 @@ webencodings==0.5.1
 xlrd==1.2.0
 yarg==0.1.9
 youtube-dl==2021.6.6
+zipp==3.7.0
 zope.interface==5.1.0
