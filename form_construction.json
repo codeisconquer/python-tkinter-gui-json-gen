@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Headline",
+    "name": "headline"
+  },
+  {
+    "label": "CTA",
+    "name": "url"
+  },
+  {
+    "label": "Bild",
+    "name": "image_url"
+  },
+  {
+    "label": "Video-Id",
+    "name": "video_id"
+  }
+]
